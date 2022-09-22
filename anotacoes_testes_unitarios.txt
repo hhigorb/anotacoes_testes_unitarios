@@ -1,0 +1,15 @@
+Testes Unitários:
+
+O que são testes unitários?
+
+O teste unitário consiste em verificar o comportamento das menores unidades em sua aplicação.
+
+Em linguagens orientadas a objetos, isso seria uma classe ou até mesmo um método, já em linguagens processuais uma função ou procedimento.
+
+O que Faz um Teste Unitário um Teste Unitário?
+
+Os testes unitários precisam funcionar isoladamente porque precisam funcionar rapidamente. Todo o conjunto de testes unitários de uma aplicação precisa funcionar em minutos, de preferência em segundos.
+
+É por isso que os testes unitários não podem utilizar nenhum processo ou sistema externo. Nenhuma operação de E/S (input/output) de qualquer tipo (banco de dados, arquivo, console, rede) exceto o registro de falhas nos testes e talvez a leitura da configuração padrão de alternância de recursos no início de uma execução de teste.
+
+Se seu código de teste (ou as bibliotecas que utiliza) fizer E/S ou acessar qualquer coisa fora de seu processo, não é um teste unitário, e sim um teste de integração.
